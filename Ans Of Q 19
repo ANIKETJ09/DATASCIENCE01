@@ -1,0 +1,14 @@
+def calculate_Avg(numbers):
+    if not numbers:
+        return None
+
+    total = sum(numbers)
+    count = len(numbers)
+    Avg = total / count
+    return mean
+
+L1 = [12, 19, 99, 45, 38]
+Avg_value = calculate_Avg(L1)
+print("Mean:", Avg_value)
+
+
