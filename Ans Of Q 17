@@ -1,0 +1,10 @@
+def Find_Even_Numbers(numbers):
+    even_numbers = [num for num in numbers if num % 2 == 0]
+    return Even_numbers
+
+input_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Even_No_list = Find_Even _numbers(input_list)
+print("Output:", Even_No_list)
+
+Output: [2, 4, 6, 8, 10]
+
